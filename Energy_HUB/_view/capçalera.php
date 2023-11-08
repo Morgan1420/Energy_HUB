@@ -13,6 +13,6 @@
     <nav id="nav_bar">
         <a href="index.php?ACCTION=Go_to_cart"><img src="img/Icona_carro_compra_white.png" alt="Carro" ></a>
         <a href="index.php?ACCTION=Go_to_settings"><img src="img/icona_settings_white.png" alt="Settings" ></a>
-        <a href="pagines/perfil.html"><img src="img/Icona_perfil_white.png" alt="Perfil" ></a>
+        <a href="index.php?ACCTION=Go_to_perfil"><img src="img/Icona_perfil_white.png" alt="Perfil" ></a>
     </nav>
 </header>

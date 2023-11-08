@@ -34,6 +34,10 @@ switch ($ACCTION) {
         include __DIR__ .'/_controller/settings.php';
         # code...
         break;
+    case 'Go_to_perfil':
+        include __DIR__ .'/_controller/perfil.php';
+        # code...
+        break; 
     default:
         include __DIR__ .'/_controller/menu_principal.php';
         # code...
