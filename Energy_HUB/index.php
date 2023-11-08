@@ -12,35 +12,35 @@
 <body>
 
 
-<?php
-    // initial screen
-    require_once __DIR__ . '/_controller/menu_principal.php';
-?>
-
-
-
-
 <?php 
 
-/*
+
 // index.php
 
-$ACCTION = $_GET['ACCION'] ?? NULL;
+$ACCTION = $_GET['ACCTION'] ?? NULL;
 
 switch ($ACCTION) {
 
-    case'A':
-        include __DIR__ .'';
+    case'Go_to_main':
+        include __DIR__ .'/_controller/menu_principal.php';
         # code...;
         break;
     
+    case'Go_to_cart':
+        include __DIR__ .'/_controller/carro_compra.php';
+        # code...;
+        break;
+    case 'Go_to_settings':
+        include __DIR__ .'/_controller/settings.php';
+        # code...
+        break;
     default:
-        include __DIR__ .'';
+        include __DIR__ .'/_controller/menu_principal.php';
         # code...
         break;
         
 }
-*/
+
 ?> 
 
 
