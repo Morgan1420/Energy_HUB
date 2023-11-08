@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Energy Hub</title>
+        <link rel="stylesheet" type="text/css" href="css/nou_style.css" >
+</head>
+
+
+<body>
+    <div id="background"></div>
+
+    <header id="capçalera">
+        <a href="index.html" id="logo_nav">Energy Hub</a>
+        
+        <div id="buscador">
+            <form action="" id="buscador_form">
+                <input type="text" placeholder="Cerca..." name="q">
+                <button type="submit" value="cercar">
+                    <img src="img/Icona_busqueda_white.png" alt="Cerca">
+                </button>
+            </form>
+        </div>
+        <div></div> <!-- Per a centrar el buscador :) -->
+        <nav id="nav_bar">
+            <a href="pagines/carro_compra.html"><img src="img/Icona_carro_compra_white.png" alt="Carro" ></a>
+            <a href="pagines/settings.html"><img src="img/icona_settings_white.png" alt="Settings" ></a>
+            <a href="pagines/perfil.html"><img src="img/Icona_perfil_white.png" alt="Perfil" ></a>
+        </nav>
+    </header>
+
+
+    <section class="seccio_filtres">
+        <form action="" id="form_filtres">
+            <b>Filtrar per:</b>
+            <div>    
+                Tipus d'Energia: <select id="filtre_tipus_energia" name="tipus_energia"> 
+                    <option value="Solar">Solar</option>
+                    <option value="Eòlica">Eòlica</option>
+                    <option value="Hidràulica">Hidràulica</option>
+                    <option value="Mecànica">Mecànica</option>
+                    <option value="Química">Química</option>
+                    <option value="Nuclear">Nuclear</option>
+                    </select>
+            </div>
+            <div>Preu: <input type="number" name="preu" id="filtre_preu" value="50">€ </div>
+            <div>Enviament gratuït<input type="radio" name="enviament_gratuit" value="NO"></div>
+            <button type="submit" value="Filtrar">Aplicar Filtres</button> 
+            <button type="reset" value="Reset">Esborrar Filtres</button> 
+
+            
+            
+        </form>
+        
+    </section>
+
+    <section class="seccio_productes"> <!-- Segurament cal cambiar la forma d'estructurar aquesta parts (divs en comptes de <ul> / grid / ...) -->
+        <header class="header_seccio"><h2>Productes</h2></header>
+        
+        <a href="index.php">PHP</a>
+    </section>
+</body>
+</html>
+
+

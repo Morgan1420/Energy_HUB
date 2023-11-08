@@ -1,0 +1,108 @@
+                                                                                                   
+body {
+    margin: 0%;
+    background-color:  rgb(219, 238, 222);
+
+}
+
+
+
+
+#navBar {
+    position: fixed;
+    left: 2.5%;
+
+    width: 95%;
+    height: 100px;
+
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+
+    display: flex;
+    background-color:  rgb(156, 216, 157);
+       
+}
+
+#LogoNavBar {
+    position : absolute;
+    left: 3%;
+}
+
+#MenuCSP {
+    position: absolute;
+    right: 0%;
+    display: flex;
+    
+    height: inherit;
+    width: 15%;
+
+    margin: auto 0 auto auto;
+
+    align-content: center;
+
+    justify-content: center;
+    text-align: center;
+}
+#MenuCSP  a {
+    position: relative;
+    height: 75%;
+    margin: 8% 0% 0% 0%;
+    
+    
+    padding: 0 3% 0 3%;
+
+    
+    align-content: center;
+}
+#MenuCSP  a img {
+    height: 60%;
+}
+
+
+
+section {
+    position: relative;
+    top: 100px;
+    margin-inline: 7%;
+    padding: 2%;
+    background-color: white;
+}
+
+.header_seccio h2{
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+ul.filtres {
+    padding: inherit;
+    text-align: center;
+    margin: 0%
+
+}
+ul.filtres li{
+    display: inline;
+    margin-inline: 5%;
+}
+
+
+
+
+#buscador {
+    position: relative;
+    width: 50%;
+    height: 40px;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    padding: 0 20px 0 20px;
+}
+
+#form_filtres {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px 0 20px;
+}

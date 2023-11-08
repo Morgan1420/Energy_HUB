@@ -1,0 +1,169 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+/*FONS PANTALLA*/
+#background {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+
+    background-image: url('../img/chelsea-WvusC5M-TM8-unsplash.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(3px);
+
+    z-index: -1;
+
+}
+
+/*CAPÇALERA (NAV_BAR)*/
+#capçalera {
+    position: absolute;
+    top: 0;
+    left: 2.5%;
+    width: 95%;
+    
+    padding: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+    background-color: rgb(66, 161, 82);
+
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    z-index: 100;
+}
+
+#logo_nav {
+    font-size: 32px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#buscador_form {
+    width: 200%;
+    max-width: 200%;
+    background-color: rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+}
+#buscador_form input {
+    background: transparent;
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 10px 22px;
+    font-size: 20px;
+    color: #d8ffe1;
+}
+::placeholder {
+    color: #d8ffe1;
+}
+
+#buscador_form button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+#buscador_form button img {
+    height: 40px;
+}
+
+
+#nav_bar a{
+    position: relative;
+    margin-left: 40px;
+}
+#nav_bar a img{
+    height: 40px;
+    color: white;
+}
+
+
+
+/* FILTRES*/
+.seccio_filtres {
+    position: relative;
+    height: 80px;
+    top: 94px;
+
+    margin-inline: 7%;
+    padding: 2%;
+
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+    background-color: rgb(183, 231, 177);;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    z-index: 90;
+}
+
+
+#form_filtres {
+    width: 100%;
+
+    border-radius: 30px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+/*PRODUCTES*/
+.seccio_productes {
+    position: relative;
+    top: 80px;  /*depen de seccio_filtres*/
+    margin-inline: 7%;
+    padding: 2%;
+    background-color: white;
+}
+
+
+
+/*ALTRES*/
+.empty_section {
+    position: relative;
+    top: 94px;  /*depen de seccio_filtres*/
+    margin-inline: 7%;
+    padding: 2%;
+    background-color: white;
+}
+
+/*MEDIA QUERIES*/
+@media screen and (max-width: 1500px) {
+    
+    #buscador_form {
+        width: 150%;
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+    
+    #buscador_form {
+        width: 100%;
+    }
+
+}
+    
